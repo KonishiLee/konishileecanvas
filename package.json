@@ -1,0 +1,22 @@
+{
+  "name": "konishileecanvas",
+  "version": "1.0.0",
+  "description": "funnel chart",
+  "main": "konishileecanvas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KonishiLee/konishileecanvas.git"
+  },
+  "keywords": [
+    "chart"
+  ],
+  "author": "KonishiLee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonishiLee/konishileecanvas/issues"
+  },
+  "homepage": "https://github.com/KonishiLee/konishileecanvas#readme"
+}
