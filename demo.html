@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Demo</title>
+    <script type="text/javascript" src="./konishileecanvas.js"></script>
+</head>
+
+<body>
+<canvas id="canvas-container" height="600" width="800"></canvas>
+
+<canvas id="canvas-container1" height="600" width="800"></canvas>
+
+<canvas id="canvas-container2" height="600" width="800"></canvas>
+
+<script type="text/javascript">
+  var data = [
+    {
+      label: 'a',
+      data: 90,
+      total: 100,
+      totalLabel: 'a总量'
+    },
+    {
+      label: 'b',
+      data: 20,
+      total: 100,
+      totalLabel: 'b总量'
+    }
+  ];
+  var options = {
+    data: data,
+    lineWidth: 40,
+    height: 200,
+    font: '20px'
+  };
+  var k = new KCanvas(document.getElementById('canvas-container'), options);
+  k.long();
+
+  k = new KCanvas(document.getElementById('canvas-container1'), options);
+  k.cross();
+  k = new KCanvas(document.getElementById('canvas-container2'), options);
+  k.round();
+</script>
+</body>
+</html>
+
